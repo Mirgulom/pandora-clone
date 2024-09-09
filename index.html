@@ -3,303 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pandora</title>
+    <title>Pandora - Автомобильная Электроника</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <div class="container">
-            <div class="header-top">
-                <a href="tel:+78007001718" class="phone-number">8 (800) 700-17-18</a>
-                <span class="header-text">(горячая линия техподдержки)</span>
-                <a href="#" class="header-text">Pandora-СПУТНИК</a>
-                <a href="#" class="header-text">Страховые компании</a>
-                <a href="#" class="header-text">Магазин</a>
-                <a href="#" class="header-text">Доставка и оплата</a>
-            </div>
-            <div class="header-bottom">
-                <a href="#" class="logo">Pandora</a>
-                <nav>
-                    <a href="#" class="nav-link">О нас</a>
-                    <a href="#" class="nav-link">Каталог</a>
-                    <a href="#" class="nav-link">Где установить</a>
-                    <a href="#" class="nav-link">Новости</a>
-                    <a href="#" class="nav-link">Поддержка</a>
-                </nav>
-                <div class="search-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.002.062.004.093.006a5.5 5.5 0 0 1 1.18-1.184c.011-.01.023-.017.035-.032a6.5 6.5 0 0 0-.492-.492zM8 10a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"/>
-                        <path d="M3.456 3.456a6.5 6.5 0 1 1 9.172 9.172c.282-.044.49-.206.51-.37a7.003 7.003 0 0 0-1.21-.458A6.5 6.5 0 0 1 3.456 3.456z"/>
-                    </svg>
+        <div class="top-header">
+            <div class="container">
+                <div class="top-bar">
+                    <div class="contact-info">
+                        <p><a href="tel:8 (800) 700-17-18">8 (800) 700-17-18</a> (горячая линия техподдержки)</p>
+                    </div>
+                    <div class="header-links">
+                        <a href="#">Pandora-СПУТНИК</a> 
+                        <a href="#">Страховые компании</a>
+                        <a href="#">Магазин</a>
+                        <a href="#">Доставка и оплата</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <nav class="nav">
+            <div class="container">
+                <div class="main-nav">
+                    <div class="logo">
+                        <img src="./images/logo/logosticky-w.png" alt="Pandora Logo">
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#">О нас</a></li>
+                        <li class="dropdown">
+                            <a href="#">Каталог <img src="./images/icons/dropdown-arrow-svgrepo-com.svg" alt=""></a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Автосигнализации</a></li>
+                                <li><a href="#">Мотосигнализации</a></li>
+                                <li><a href="#">Иммобилайзеры</a></li>
+                                <li><a href="#">Аксессуары</a></li>
+                                <li><a href="#">Зарядные станции для электромобилей</a></li>
+                                <li><a href="#">Снятые с производства</a></li>
+                                <li><a href="#">Pandora Alarm Studio</a></li>
+                                <li><a href="#">Определение модели системы по серийному номеру</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Где установить</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li class="dropdown">
+                            <a href="#">Поддержка <img src="./images/icons/dropdown-arrow-svgrepo-com.svg" alt=""></a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Прошивки, программы и инструкции</a></li>
+                                <li><a href="#">Техническая поддержка</a></li>
+                                <li><a href="#">Сравнительные таблицы</a></li>
+                                <li><a href="#">Часто задаваемые вопросы</a></li>
+                                <li><a href="#">Список поддерживаемых автомобилей</a></li>
+                                <li><a href="#">Руководства и схемы</a></li>
+                                <li><a href="#">Определение модели системы по серийному номеру</a></li>
+                                <li><a href="#">Гарантийные обязательства</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="./images/icons/shopping-cart-11-svgrepo-com.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/icons/search-svgrepo-com.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+    <!-- Main Content -->
     <main>
+        <!-- Hero Section -->
         <section class="hero">
-            <div class="container">
-                <img src="hero-image.jpg" alt="Hero Image">
-                <div class="hero-text">
-                    <h2>Разработка и производство передовой автомобильной электроники</h2>
-                    <p>Автомобильная электроника Pandora/Pandect разрабатывается и полностью производится на нашем передовом российском предприятии в Калуге, на котором занято более 700 человек. Автосигнализации, телеметрические системы, иммобилайзеры Раndora/Pandect успешно эксплуатируются на миллионах автомобилей в России, странах СНГ, в 28 странах дальнего зарубежья, 
-                        <br> «...закрепляя традиционное преимущество Российской научной, инженерной и творческой мысли...».
-                    </p>
-                </div>
+            
+            <div class="hero-text">
+                
             </div>
         </section>
+
+        <!-- Products Section -->
         <section class="products">
-            <div class="container">
-                <h2>Наша продукция</h2>
-                <div class="products-grid">
-                    <div class="product">
-                        <img src="car-alarm.jpg" alt="Автосигнализация">
-                        <h3>Автосигнализации</h3>
-                    </div>
-                    <div class="product">
-                        <img src="motorcycle-alarm.jpg" alt="Мотосигнализация">
-                        <h3>Мотосигнализации</h3>
-                    </div>
-                    <div class="product">
-                        <img src="immobilizer.jpg" alt="Иммобилайзеры">
-                        <h3>Иммобилайзеры</h3>
-                    </div>
-                    <div class="product">
-                        <img src="accessories.jpg" alt="Аксессуары">
-                        <h3>Аксессуары</h3>
-                    </div>
-                    <div class="product">
-                        <img src="charging-station.jpg" alt="Зарядные станции">
-                        <h3>Зарядные станции</h3>
-                    </div>
-                </div>
-                <a href="#" class="button">Все публикации</a>
+            <h2>Наша продукция</h2>
+            <div class="product-list">
+                <div class="product-item"><img src="product1.jpg" alt="Автосигнализация"><p>Автосигнализация</p></div>
+                <div class="product-item"><img src="product2.jpg" alt="Мотоциклисты"><p>Мотоциклисты</p></div>
+                <div class="product-item"><img src="product3.jpg" alt="Иммобилайзеры"><p>Иммобилайзеры</p></div>
+                <div class="product-item"><img src="product4.jpg" alt="Аксессуары"><p>Аксессуары</p></div>
+                <div class="product-item"><img src="product5.jpg" alt="Зарядные станции"><p>Зарядные станции</p></div>
             </div>
         </section>
+
+        <!-- News Section -->
         <section class="news">
-            <div class="container">
-                <h2>Новости Pandora</h2>
-                <div class="news-grid">
-                    <div class="news-item">
-                        <div class="news-date">07</div>
-                        <div class="news-month">09, 2024</div>
-                        <div class="news-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
-                                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 1 0V1h8V.5a.5.5 0 0 1 .5-.5z"/>
-                                <path d="M2 15a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5v-1z"/>
-                            </svg>
-                        </div>
-                        <h3>Обновление CAN-протоколов для всех современных систем Pandora и Pandect</h3>
-                        <p>С радостью сообщаем вам о выходе очередного пакета обновлений программного обеспечения Pandora, которое включает в себя несколько новых моделей автомобилей...</p>
+            <h2>Новости Pandora</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <img src="news1.jpg" alt="Обновление CAN протоколов">
+                    <div class="news-info">
+                        <span>07.09.2024</span>
+                        <h3>Обновление CAN протоколов для всех современных систем Pandora и Pandect</h3>
+                        <p>Осталось... <a href="#">Читать дальше</a></p>
                     </div>
-                    <div class="news-item">
-                        <div class="news-date">02</div>
-                        <div class="news-month">09, 2024</div>
-                        <div class="news-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
-                                <path d="M2 6a6 6 0 0 1 6 6 6 6 0 0 1-6-6zm8 0a6 6 0 0 1-6 6 6 6 0 0 1 6-6zm-1 9a1 1 0 0 0 1 1v1a1 1 0 0 0 1-1h1a1 1 0 0 0-1-1v-1a1 1 0 0 0-1 1h-1z"/>
-                            </svg>
-                        </div>
+                </div>
+                <div class="news-item">
+                    <img src="news2.jpg" alt="Новые семейства продуктов Pandora LIGHT">
+                    <div class="news-info">
+                        <span>02.09.2024</span>
                         <h3>Новое семейство продуктов Pandora LIGHT</h3>
-                        <p>Pandora делает свои популярные продукты более привлекательными и доступными...</p>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">14</div>
-                        <div class="news-month">08, 2024</div>
-                        <div class="news-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bluetooth" viewBox="0 0 16 16">
-                                <path d="M7.271 14.414l-.63 1.062a.5.5 0 0 0 .887.45l1.262-.65a.5.5 0 0 0 0-.898l-.651-1.26a.5.5 0 0 0-.45.887l1.062.63zM5.5 9.865a.5.5 0 0 0 .898.45l1.262-.65a.5.5 0 0 0 0-.898l-.651-1.26a.5.5 0 0 0-.45.887l1.062.63zM3.5 6.865a.5.5 0 0 0 .898.45l1.262-.65a.5.5 0 0 0 0-.898l-.651-1.26a.5.5 0 0 0-.45.887l1.062.63z"/>
-                                <path d="M13.087 5.12a4.5 4.5 0 0 1-.887 2.914l-.651 1.262a.5.5 0 0 0 .45.887l1.062.63A4.5 4.5 0 0 1 13.087 5.12z"/>
-                                <path d="M8.5 1.5a4.5 4.5 0 0 0-2.914.887l-1.262.651a.5.5 0 0 0-.898 0l-.63-.106a4.5 4.5 0 0 0-1.543 3.657z"/>
-                                <path d="M10.887 9.5a4.5 4.5 0 0 0 3.657-1.543l.63-.106a.5.5 0 0 0 0-.898l1.262-.65a4.5 4.5 0 0 0 2.914-.887z"/>
-                                <path d="M5.12 13.087a4.5 4.5 0 0 0-3.657 1.543l-.106.63a.5.5 0 0 0 0 .898l.651 1.262a4.5 4.5 0 0 0 1.543 3.657z"/>
-                            </svg>
-                        </div>
-                        <h3>Обзор современных Bluetooth-аксессуаров Pandora</h3>
-                        <p>При разработке новых продуктов мы уделяем большое внимание линейке доступных аксессуаров для охранных систем Pandora и PanDECT...</p>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">30</div>
-                        <div class="news-month">07, 2024</div>
-                        <div class="news-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event-fill" viewBox="0 0 16 16">
-                                <path d="M12.5 1h1a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 .5-.5z"/>
-                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 1 0V1h8V.5a.5.5 0 0 1 .5-.5z"/>
-                                <path d="M2 15a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-12a.5.5 0 0 1-.5-.5v-1z"/>
-                                <path d="M8.5 8.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-                                <path d="M3.5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-                            </svg>
-                        </div>
-                        <h3>День Pandora 2024 Москва</h3>
-                        <p>Стала известна дата проведения Большой осенней Технической конференции «День Pandora 2024 Москва», которая традиционно является ключевым событием рынка car-security...</p>
+                        <p>Pandora... <a href="#">Читать дальше</a></p>
                     </div>
                 </div>
+                <!-- Add more news items as needed -->
             </div>
         </section>
+
+        <!-- Reports and Events -->
         <section class="reports-events">
-            <div class="container">
-                <div class="reports-events-grid">
-                    <div class="reports-events-item">
-                        <h2>Репортажи</h2>
-                        <div class="reports-events-item-content">
-                            <div class="reports-events-item-date">05</div>
-                            <div class="reports-events-item-month">09, 2024</div>
-                            <div class="reports-events-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
-                                    <path d="M0 12.5A1.5 1.5 0 0 1 1.5 11h13A1.5 1.5 0 0 1 16 12.5v1A1.5 1.5 0 0 1 14.5 15h-13A1.5 1.5 0 0 1 0 13.5v-1z"/>
-                                    <path d="M2.5 1a2.5 2.5 0 0 0-2.5 2.5v7.793l-.146-.147a3.5 3.5 0 0 1 5.02 0l-.147.146V1.5a2.5 2.5 0 0 0-2.5-2.5z"/>
-                                    <path d="M8 11a2.5 2.5 0 0 1 2.5-2.5V3.5a2.5 2.5 0 0 1 5 0v5.5a2.5 2.5 0 0 1-2.5 2.5h-5zM2.5 9a1 1 0 0 0 1 1v2.242l.147.146a2 2 0 0 1-2.857 0l.146-.147V10a1 1 0 0 0-1-1zM14.5 9a1 1 0 0 0-1 1v2.242l-.147.146a2 2 0 0 1 2.857 0l-.146-.147V10a1 1 0 0 0-1-1z"/>
-                                </svg>
-                            </div>
-                            <h3>Команда Pandora приняла участие в Калужском Космическом марафоне</h3>
-                            <p>В минувшую субботу состоялся пятый Калужский Космический марафон, в котором наша компания выступила большой корпоративной командой...</p>
-                        </div>
-                    </div>
-                    <div class="reports-events-item">
-                        <h2>События</h2>
-                        <div class="reports-events-item-content">
-                            <div class="reports-events-item-date">05</div>
-                            <div class="reports-events-item-month">09, 2024</div>
-                            <div class="reports-events-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone" viewBox="0 0 16 16">
-                                    <path d="M13.625.5a.5.5 0 0 1 .382.143l5.25 3.5a.5.5 0 0 1 .143.382v2.75a.5.5 0 0 1-.143.382l-5.25 3.5a.5.5 0 0 1-.382.143v2.75a.5.5 0 0 1-.857.5 1.75 1.75 0 0 1-1.337-.857h-.375a1.75 1.75 0 0 1-1.337-.857V10.5a.5.5 0 0 1-.143-.382l-5.25-3.5a.5.5 0 0 1-.382-.143V6.5a.5.5 0 0 1 .143-.382l5.25-3.5a.5.5 0 0 1 .382-.143zm-10.25 7.5a1 1 0 0 0 1.138-.857h.375a1.75 1.75 0 0 1 1.337.857v2.75a.5.5 0 0 1 .857.5 1.75 1.75 0 0 1 1.337-.857h.375a1.75 1.75 0 0 1 1.337.857v2.75a.5.5 0 0 1 .143.382l5.25 3.5a.5.5 0 0 1-.143.382v2.75a.5.5 0 0 1-.857.5 1.75 1.75 0 0 1-1.337-.857h-.375a1.75 1.75 0 0 1-1.337-.857V16a.5.5 0 0 1-.382-.143l-5.25-3.5a.5.5 0 0 1-.143-.382v-2.75a.5.5 0 0 1 .143-.382l5.25-3.5a.5.5 0 0 1 .382-.143V7.5z"/>
-                                </svg>
-                            </div>
-                            <h3>Техническая конференция Рandora пройдет в Саратове</h3>
-                            <p>Ведущий отечественный разработчик и производитель комплексных систем безопасности для автомобилей и мотоциклов компания Pandora объявляет о проведении 3 октября...</p>
-                        </div>
-                    </div>
+            <div class="reports">
+                <h2>Репортажи</h2>
+                <div class="report-item">
+                    <img src="report1.jpg" alt="Калужском Космическом марафоне">
+                    <p>Команда Pandora приняла участие в Калужском Космическом марафоне</p>
+                </div>
+            </div>
+            <div class="events">
+                <h2>События</h2>
+                <div class="event-item">
+                    <img src="event1.jpg" alt="Техническая конференция">
+                    <p>Техническая конференция Pandora прошла в Сочи</p>
                 </div>
             </div>
         </section>
-        <section class="soon">
-            <div class="container">
-                <h2>Скоро в продаже</h2>
-                <div class="soon-content">
-                    <img src="soon-product.jpg" alt="Soon Product">
-                    <div class="soon-text">
-                        <h3>Pandora VX 4G GPS v.3</h3>
-                        <p>Обновленная модель популярной линейки телеметрических систем</p>
-                    </div>
-                </div>
+
+        <!-- Upcoming Product -->
+        <section class="upcoming-product">
+            <h2>Скоро в продаже</h2>
+            <div class="upcoming-product-info">
+                <img src="upcoming-product.jpg" alt="Pandora VX 4G GPS v.3">
+                <p>Pandora VX 4G GPS v.3</p>
             </div>
         </section>
-        <section class="hits">
-            <div class="container">
-                <h2>Хиты продаж</h2>
-                <div class="hits-content">
-                    <div class="hits-product">
-                        <img src="hit-product.jpg" alt="Hit Product">
-                    </div>
-                    <div class="hits-text">
-                        <h3>Автомобильная сигнализация Pandora DX 9X Lora</h3>
-                        <p>По дальности связи, помехозащищенности, энергопотреблению в новой реализации Pandora DX 9X LoRa выходит на совершенно другой уровень. Специально для массового применения наши инженеры разработали отдельную ревизию радиотракта LoRa Hi Speed, в которой идеально сбалансированы ключевые параметры, обеспечивая высокую дальность связи (до 2км) между брелком и блоком сигнализации на альтернативных каналах, не мешающих уверенной передаче сигнала топовых систем Pandora.</p>
-                        <a href="#" class="button">Узнать больше</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="innovation">
-            <div class="container">
-                <h2>Pandora - объединяя людей и инновации</h2>
-                <div class="innovation-slider">
-                    <div class="innovation-slide">
-                        <img src="innovation-slide1.jpg" alt="Innovation Slide 1">
-                    </div>
-                    <div class="innovation-slide">
-                        <img src="innovation-slide2.jpg" alt="Innovation Slide 2">
-                    </div>
-                    <div class="innovation-slide">
-                        <img src="innovation-slide3.jpg" alt="Innovation Slide 3">
-                    </div>
-                </div>
-                <p>Предприятие производит изделия автомобильной безопасности с 2004 года, но успело за столь короткий срок закрепить статус одного из технических и технологических лидеров этого направления не только российского, но и мирового рынка. 
-                    <br> Идеология предприятия состоит в создании продуктов, соответствующих либо превосходящих уровень исполнения штатного электронного оборудования и автосигнализаций самых современных автомобилей.
-                </p>
-                <a href="#" class="button">Узнайте больше о Pandora</a>
-            </div>
-        </section>
-        <section class="footer">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-item">
-                        <h3>Контакты</h3>
-                        <h4>Головной офис:</h4>
-                        <p>г. Москва, Киевское шоссе, Бизнес-парк «Румянцево», корп. Б, офисный под. 7, 9 этаж, оф. 909-Б</p>
-                        <h4>Телефоны офиса</h4>
-                        <a href="tel:+74959813478">+7 (495) 981-34-78</a>
-                        <a href="tel:+74959813479">+7 (495) 981-34-79</a>
-                    </div>
-                    <div class="footer-item">
-                        <h3>Pandora - выбирай лучшее</h3>
-                        <ul>
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Автосигнализации</a></li>
-                            <li><a href="#">Мотосигнализации</a></li>
-                            <li><a href="#">Иммобилайзеры</a></li>
-                            <li><a href="#">Аксессуары</a></li>
-                            <li><a href="#">Функциональные особенности</a></li>
-                            <li><a href="#">Pandora-СПУТНИК</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-item">
-                        <h3>Интернет-магазин</h3>
-                        <ul>
-                            <li><a href="#">Интернет-магазин</a></li>
-                            <li><a href="#">Личный кабинет</a></li>
-                            <li><a href="#">Оформление заказа</a></li>
-                            <li><a href="#">Доставка и оплата</a></li>
-                            <li><a href="#">Публичная оферта</a></li>
-                            <li><a href="#">Сертификаты соответствия</a></li>
-                            <li><a href="#">Pandora International</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-item">
-                        <h3>Поддержка и сервис</h3>
-                        <ul>
-                            <li><a href="#">Контактная информация</a></li>
-                            <li><a href="#">Техническая поддержка</a></li>
-                            <li><a href="#">Прошивки и программы</a></li>
-                            <li><a href="#">Карты установок (файлсервер)</a></li>
-                            <li><a href="#">Часто задаваемые вопросы</a></li>
-                            <li><a href="#">Гарантия</a></li>
-                            <li><a href="#">Сравнительные таблицы</a></li>
-                            <li><a href="#">Страховые компании</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <p>&copy; Copyright 2005-2024 Pandora. Все права защищены. Тел.: +7 (495) 981-34-78, 8-800-700-17-18</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.783l-7 4.217L5.047 9.783A1 1 0 0 1 5 10h9a1 1 0 0 1 1 1v2.217l-7-4.217z"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vk" viewBox="0 0 16 16">
-                                <path d="M14.053 1.586a.5.5 0 0 1 .354.146l4.354 2.571a.5.5 0 0 1 .146.354v2.571a.5.5 0 0 1-.146.354l-4.354 2.571a.5.5 0 0 1-.354.146v2.571a.5.5 0 0 1-.854.354l-5.354-3.214a.5.5 0 0 1-.354-.146V9.75a.5.5 0 0 1 .146-.354l4.354-2.571a.5.5 0 0 1 .354-.146V4.75a.5.5 0 0 1 .854-.354l5.354 3.214a.5.5 0 0 1 .354.146zm-1.5-2.088a.5.5 0 0 0-.354-.146l-4.354-2.571a.5.5 0 0 0-.146-.354V.5a.5.5 0 0 0 .146-.354l4.354-2.571a.5.5 0 0 0 .354-.146V.5a.5.5 0 0 0 .854.354l5.354 3.214a.5.5 0 0 0 .354.146V4.75a.5.5 0 0 0-.146.354l-4.354 2.571a.5.5 0 0 0-.354.146v2.571a.5.5 0 0 0 .146.354l5.354 3.214a.5.5 0 0 0 .354.146z"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vk" viewBox="0 0 16 16">
-                                <path d="M14.053 1.586a.5.5 0 0 1 .354.146l4.354 2.571a.5.5 0 0 1 .146.354v2.571a.5.5 0 0 1-.146.354l-4.354 2.571a.5.5 0 0 1-.354.146v2.571a.5.5 0 0 1-.854.354l-5.354-3.214a.5.5 0 0 1-.354-.146V9.75a.5.5 0 0 1 .146-.354l4.354-2.571a.5.5 0 0 1 .354-.146V4.75a.5.5 0 0 1 .854-.354l5.354 3.214a.5.5 0 0 1 .354.146zm-1.5-2.088a.5.5 0 0 0-.354-.146l-4.354-2.571a.5.5 0 0 0-.146-.354V.5a.5.5 0 0 0 .146-.354l4.354-2.571a.5.5 0 0 0 .354-.146V.5a.5.5 0 0 0 .854.354l5.354 3.214a.5.5 0 0 0 .354.146V4.75a.5.5 0 0 0-.146.354l-4.354 2.571a.5.5 0 0 0-.354.146v2.571a.5.5 0 0 0 .146.354l5.354 3.214a.5.5 0 0 0 .354.146z"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vk" viewBox="0 0 16 16">
-                                <path d="M14.053 1.586a.5.5 0 0 1 .354.146l4.354 2.571a.5.5 0 0 1 .146.354v2.571a.5.5 0 0 1-.146.354l-4.354 2.571a.5.5 0 0 1-.354.146v2.571a.5.5 0 0 1-.854.354l-5.354-3.214a.5.5 0 0 1-.354-.146V9.75a.5.5 0 0 1 .146-.354l4.354-2.571a.5.5 0 0 1 .354-.146V4.75a.5.5 0 0 1 .854-.354l5.354 3.214a.5.5 0 0 1 .354.146zm-1.5-2.088a.5.5 0 0 0-.354-.146l-4.354-2.571a.5.5 0 0 0-.146-.354V.5a.5.5 0 0 0 .146-.354l4.354-2.571a.5.5 0 0 0 .354-.146V.5a.5.5 0 0 0 .854.354l5.354 3.214a.5.5 0 0 0 .354.146V4.75a.5.5 0 0 0-.146.354l-4.354 2.571a.5.5 0 0 0-.354.146v2.571a.5.5 0 0 0 .146.354l5.354 3.214a.5.5 0 0 0 .354.146z"/>
-                            </svg>
-                        </a>
-                        <a href="#" class="social-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vk" viewBox="0 0 16 16">
-                                <path d="M14.053 1.586a.5.5 0 0 1 .354.146l4.354 2.571a.5.5 0 0 1 .146.354v2.571a.5.5 0 0 1-.146.354l-4.354 2.571a.5.5 0 0 1-.354.146v2.571a.5.5 0 0 1-.854.354l-5.354-3.214a.5.5 0 0 1-.354-.146V9.75a.5.5 0 0 1 .146-.354l4.354-2.571a.5.5 0 0 1 .354-.146V4.75a.5.5 0 0 1 .854-.354l5.354 3.214a.5.5 0 0 1 .354.146zm-1.5-2.088a.5.5 0 0 0-.354-.146l-4.354-2.571a.5.5 0 0 0-.146-.354V.5a.5.5 0 0 0 .146-.354l4.354-2.571a.5.5 0 0 0 .354-.146V.5a.5.5 0 0 0 .854.354l5.354 3.214a.5.5 0 0 0 .354.146V4.75a.5.5 0 0 0-.146.354l-4.354 2.571a.5.5 0 0 0-.354.146v2.571a.5.5 0 0 0 .146.354l5.354 3.214a.5.5 0 0 0 .354.146z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+
+        <!-- Best Sellers -->
+        <section class="best-sellers">
+            <h2>Хиты продаж</h2>
+            <div class="best-seller-item">
+                <img src="bestseller.jpg" alt="Автомобильная сигнализация Pandora DX 40RS">
+                <p>Автомобильная сигнализация Pandora DX 40RS</p>
+                <a href="#" class="btn">Узнать больше</a>
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2024 Pandora. Все права защищены.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">Контакты</a>
+            <a href="#">Условия использования</a>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </footer>
 </body>
 </html>
