@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог продукции Pandora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <script>
+        window.onload=function(){
+            const header = document.querySelector('.nav')
+            const classes = header.getAttribute('class')
+            window.onscroll=()=>{
+                if(window.scrollY > 52) header.setAttribute('class',classes+' nav-fixed');
+                else header.setAttribute('class',classes)
+            }
+        }
+    </script>
+
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="top-bar">
+                    <div class="contact-info">
+                        <p><a href="tel:8 (800) 700-17-18">8 (800) 700-17-18</a> (горячая линия техподдержки)</p>
+                    </div>
+                    <div class="header-links">
+                        <a href="#">Pandora-СПУТНИК</a> 
+                        <a href="#">Страховые компании</a>
+                        <a href="#">Магазин</a>
+                        <a href="#">Доставка и оплата</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container">
+                <div class="main-nav">
+                    <div class="logo">
+                        <img src="./images/logo/logosticky-w.png" alt="Pandora Logo">
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#">О нас</a></li>
+                        <li class="dropdown">
+                            <a href="#">Каталог <img src="./images/icons/dropdown-arrow-svgrepo-com.svg" alt=""></a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Автосигнализации</a></li>
+                                <li><a href="#">Мотосигнализации</a></li>
+                                <li><a href="#">Иммобилайзеры</a></li>
+                                <li><a href="#">Аксессуары</a></li>
+                                <li><a href="#">Зарядные станции для электромобилей</a></li>
+                                <li><a href="#">Снятые с производства</a></li>
+                                <li><a href="#">Pandora Alarm Studio</a></li>
+                                <li><a href="#">Определение модели системы по серийному номеру</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Где установить</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li class="dropdown">
+                            <a href="#">Поддержка <img src="./images/icons/dropdown-arrow-svgrepo-com.svg" alt=""></a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Прошивки, программы и инструкции</a></li>
+                                <li><a href="#">Техническая поддержка</a></li>
+                                <li><a href="#">Сравнительные таблицы</a></li>
+                                <li><a href="#">Часто задаваемые вопросы</a></li>
+                                <li><a href="#">Список поддерживаемых автомобилей</a></li>
+                                <li><a href="#">Руководства и схемы</a></li>
+                                <li><a href="#">Определение модели системы по серийному номеру</a></li>
+                                <li><a href="#">Гарантийные обязательства</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="./images/icons/shopping-cart-11-svgrepo-com.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/icons/search-svgrepo-com.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div style="position: absolute; width: 100%;z-index: -100;height: 460px;">
+        <img style="width: 100%;height: 100%;" src="https://alarmtrade.ru/wp-content/uploads/2020/10/2686.jpg">
+    </div>
+
+    <section class="catalog-banner">
+        <div style="text-align: left;padding-left: 36px;">
+            <h1 style="font-size: 30px;">Каталог продукции Pandora</h1>
+            <p style="color: gray;">Добро пожаловать в каталог продукции Pandora! Здесь представлены как актуальные модели, так и снятые с
+                производства товары.</p>
+        </div>
+        <div class="product-types">
+            <div><img src="https://alarmtrade.ru/wp-content/uploads/2020/10/2682.jpg"
+                    alt="Автосигнализации"><span>Автосигнализации</span></div>
+            <div><img src="https://alarmtrade.ru/wp-content/uploads/2016/12/immo-icon-1.jpg"
+                    alt="Иммобилайзеры"><span>Иммобилайзеры</span></div>
+            <div><img src="https://alarmtrade.ru/wp-content/uploads/2020/10/2686.jpg"
+                    alt="Аксессуары"><span>Аксессуары</span></div>
+            <div><img src="https://alarmtrade.ru/wp-content/uploads/2017/04/5495.jpg"
+                    alt="Мотосигнализации"><span>Мотосигнализации</span></div>
+        </div>
+        <div class="product-list">
+            <div
+                style="display: flex;justify-content: space-between;align-items: center;padding-left: 21px;padding-right: 21px;border-radius: 5px;margin-bottom: 15px;background-color: rgba(221, 221, 221, 0.3);text-align:center">
+                <h2 style="font-weight: 100;font: 24px Roboto,Arial,Helvetica,sans-serif;">Самые актуальные модели 2024 года</h2>
+                <a href="https://alarmtrade.ru/functions/" style="color: rgb(64, 85, 188);font-size: large;">Функциональные
+                    Особенности</a>
+            </div>
+
+            <div class="products-grid" style="margin-top: 78px;">
+                <!-- Product Item 1 -->
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandect-x-1800l-v3/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2022/12/4888-168x130.jpg" alt=""
+                            loading="lazy">
+                    </a>
+                    <p>Автомобильная сигнализация Pandora VX-4G v2</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <!-- Product Item 2 -->
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-vx-4g-v2/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2022/06/8779-168x130.jpg" alt=""
+                            loading="lazy">
+                    </a>
+                    <p>Автомобильная сигнализация Pandect X-1800L V3</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-vx-4g-gps-v3/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2022/10/4888-1-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+                    </a>
+                    <p>Автомобильная сигнализация Pandora VX-4G GPS v3</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-vx-4g-gps-fd/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2024/07/4890-1-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora VX-4G GPS FD</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandect-x-18001-v4light/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2024/08/4891-1-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandect X-1800L v4 Light</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-vx-4glight/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2024/08/4889-1-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora VX-4G Light</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-vx-4g-gps-fdlight/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2024/08/4890-1-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora VX-4G GPS FD Light</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-dxl-4710/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2019/09/4710box-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora DLX 4710</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-dx-6x-lora/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2021/06/3613-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora DX 6X Lora</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-dx-9x-lora/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2021/06/3614-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora DX 9X Lora</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-dx-57r/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2021/05/3574-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora DX 57R</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+                <div class="product-item">
+                    <a href="https://alarmtrade.ru/production/avtomobilnaya-signalizatsiya-pandora-dx-57r-2/">
+                        <img width="168" height="130"
+                            src="https://alarmtrade.ru/wp-content/uploads/2024/07/4889-168x130.jpg"
+                            class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy">
+
+                    </a>
+                    <p>Автомобильная сигнализация Pandora DX 57R v2</p>
+                    <span>2022 - наст. время</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div style="padding-top: 28px;padding-bottom: 28px;border-top: 1px solid rgb(171, 170, 170);text-align:left;">
+            <a href="https://alarmtrade.ru/pandora_categories/snyatye-s-proizvodstva/"
+                style="font-size: large;color:rgb(171, 170, 170)">Снятые с производства</a>
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <p><strong>Головной офис:</strong></p>
+                <p>г. Москва, Киевское шоссе, Бизнес-парк «Румянцево», корп. Б, офисный под. 7, 9 этаж, оф. 909-Б</p>
+                <p><strong>Телефоны офиса:</strong></p>
+                <p>+7 (495) 981-34-78<br>+7 (495) 981-34-79</p>
+            </div>
+            <div class="footer-column">
+                <h3>PANDORA — ВЫБИРАЙ ЛУЧШЕЕ</h3>
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Автосигнализации</a></li>
+                    <li><a href="#">Мотосигнализации</a></li>
+                    <li><a href="#">Иммобилайзеры</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                    <li><a href="#">Функциональные особенности</a></li>
+                    <li><a href="#">Pandora-СПУТНИК</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>ИНТЕРНЕТ-МАГАЗИН</h3>
+                <ul>
+                    <li><a href="#">Интернет-магазин</a></li>
+                    <li><a href="#">Личный кабинет</a></li>
+                    <li><a href="#">Оформление заказа</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Публичная оферта</a></li>
+                    <li><a href="#">Сертификаты соответствия</a></li>
+                    <li><a href="#">Pandora International</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>ПОДДЕРЖКА И СЕРВИС</h3>
+                <ul>
+                    <li><a href="#">Контактная информация</a></li>
+                    <li><a href="#">Техническая поддержка</a></li>
+                    <li><a href="#">Прошивки и программы</a></li>
+                    <li><a href="#">Карты установок (файлсервер)</a></li>
+                    <li><a href="#">Часто задаваемые вопросы</a></li>
+                    <li><a href="#">Гарантия</a></li>
+                    <li><a href="#">Сравнительные таблицы</a></li>
+                    <li><a href="#">Страховые компании</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© Copyright 2005 - 2024 Pandora. Все права защищены. Тел.: +7 (495) 981-34-78, 8-800-700-17-18</p>
+        <div class="social-icons">
+            <!-- Replace with actual social icon images -->
+            <a href="#"><img src="./images/icons/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./images/icons/vk.png" alt="VK"></a>
+            <a href="#"><img src="./images/icons/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="./images/icons/rss.png" alt="RSS"></a>
+            <!-- Add more icons as necessary -->
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
