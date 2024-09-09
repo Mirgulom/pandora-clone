@@ -9,7 +9,7 @@ a {
 }
 header {
     color: white;
-    
+    position: relative;
 }
 
 .container{
@@ -44,6 +44,7 @@ header {
 }
 .nav {
     background-color: #192730;
+    
 }
 
 .main-nav {
@@ -129,39 +130,94 @@ header {
 }
 
 
-
+main{
+    margin-top: 50px;
+}
 .hero {
-    position: relative;
-    text-align: center;
+    /* position: relative; */
     color: white;
+    
 }
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: inherit;
 }
 
 .hero-text {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+.hero h1{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 0;
+    color: #131921;
+    text-align: center;
+}
+.hero p{
+    color: #4b5359;
+    font-size: 20px;
+}
+.hero .hero-left-p{
+    text-align: right;
 }
 
-.products, .news, .reports-events, .upcoming-product, .best-sellers {
+
+/* ---------------------------------------------- */
+/* PRODUCTS CONTENT */
+.products{
+    padding: 60px 30px 20px 30px;
+    background: url('../images/main/products/bg-products.jpg') no-repeat;
+    background-size: cover;
+}
+.products h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.product-list .product-item{
+    
+}
+.product-item img {
+    width: 190px;
+    height: 190px;
+}
+.product-item p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+/* .products, .news, .reports-events, .upcoming-product, .best-sellers {
     padding: 20px;
-}
+} */
 
-.product-list, .news-list {
+/* .product-list, .news-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+} */
 
-.product-item, .news-item, .report-item, .event-item, .upcoming-product-info, .best-seller-item {
+/* .product-item, .news-item, .report-item, .event-item, .upcoming-product-info, .best-seller-item {
     margin: 10px;
     text-align: center;
-}
+} */
 
 footer {
     background-color: #003366;
